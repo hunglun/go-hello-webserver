@@ -100,7 +100,7 @@ func main() {
 	// Get the port from the environment variable or use the default 8080
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "80"
+		port = "8080"
 	}
 
 	// Start the web server
